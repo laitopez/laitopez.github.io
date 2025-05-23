@@ -3,18 +3,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <title>Blog Title</title>
   <subtitle>This is a longer description about your blog.</subtitle>
-  <link href="https://example.com/eleventy-base-blog/feed/feed.xml" rel="self" />
-  <link href="https://example.com/eleventy-base-blog/" />
+  <link href="https://example.com/laitopez.github.io/feed/feed.xml" rel="self" />
+  <link href="https://example.com/laitopez.github.io/" />
   <updated>2025-01-25T00:00:00Z</updated>
-  <id>https://example.com/eleventy-base-blog/</id>
+  <id>https://example.com/laitopez.github.io/</id>
   <author>
     <name>Your Name</name>
   </author>
   <entry>
     <title>AI frustration board</title>
-    <link href="https://example.com/eleventy-base-blog/blog/ai-frustration-board/" />
+    <link href="https://example.com/laitopez.github.io/blog/ai-frustration-board/" />
     <updated>2025-01-25T00:00:00Z</updated>
-    <id>https://example.com/eleventy-base-blog/blog/ai-frustration-board/</id>
+    <id>https://example.com/laitopez.github.io/blog/ai-frustration-board/</id>
     <content type="html">&lt;p&gt;This is landing page for collecting many of my frustrations with ai&lt;/p&gt;
 &lt;hr&gt;
 &lt;hr&gt;
@@ -35,14 +35,14 @@ world of homeopathy and faith healing.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;p&gt;This cartoon from &lt;a href=&quot;https://marketoonist.com/2023/03/ai-written-ai-read.html&quot;&gt;marktoonist&lt;/a&gt;&lt;/p&gt;
-&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/eleventy-base-blog/blog/ai-frustration-board/6F9xC-LsIE-1200.avif 1200w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/eleventy-base-blog/blog/ai-frustration-board/6F9xC-LsIE-1200.webp&quot; alt=&quot;ai cartoon&quot; class=&quot;responsive-img&quot; width=&quot;1200&quot; height=&quot;628&quot;&gt;&lt;/picture&gt;
+&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/laitopez.github.io/blog/ai-frustration-board/6F9xC-LsIE-1200.avif 1200w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/laitopez.github.io/blog/ai-frustration-board/6F9xC-LsIE-1200.webp&quot; alt=&quot;ai cartoon&quot; class=&quot;responsive-img&quot; width=&quot;1200&quot; height=&quot;628&quot;&gt;&lt;/picture&gt;
 </content>
   </entry>
   <entry>
     <title>FZF terminal bookmark manager</title>
-    <link href="https://example.com/eleventy-base-blog/blog/fzf-terminal-bookmark-manager/" />
+    <link href="https://example.com/laitopez.github.io/blog/fzf-terminal-bookmark-manager/" />
     <updated>2024-10-30T00:00:00Z</updated>
-    <id>https://example.com/eleventy-base-blog/blog/fzf-terminal-bookmark-manager/</id>
+    <id>https://example.com/laitopez.github.io/blog/fzf-terminal-bookmark-manager/</id>
     <content type="html">&lt;p&gt;At work there are a lot of (sub)domains for all the different platforms. Internal tenant platform, internal email platform, internal azure group management platform, internal ci/cd platform, internal docs, this specialized tool, that specialized tool, etc.&lt;/p&gt;
 &lt;p&gt;Some I have ready at the end of finger tips but many require me to bother someone for the link again or go searching in the blazingly fast Confluence site for the domain.&lt;/p&gt;
 &lt;p&gt;Why don&#39;t we load all those domains in to a csv file and then create a shell function for searching and opening that site in the browser?&lt;/p&gt;
@@ -63,9 +63,9 @@ aws docs, https://docs.aws.amazon.com/index.html&lt;/code&gt;&lt;/pre&gt;
   </entry>
   <entry>
     <title>Using ntfy.sh for executing long running commands</title>
-    <link href="https://example.com/eleventy-base-blog/blog/ntfy-for-long-tasks/" />
+    <link href="https://example.com/laitopez.github.io/blog/ntfy-for-long-tasks/" />
     <updated>2024-10-29T00:00:00Z</updated>
-    <id>https://example.com/eleventy-base-blog/blog/ntfy-for-long-tasks/</id>
+    <id>https://example.com/laitopez.github.io/blog/ntfy-for-long-tasks/</id>
     <content type="html">&lt;p&gt;ntfy.sh is a cool tool for sending push notifications to your mobile device. Here is a quick guide on how to send notificaitons for long running scripts you execute in your shell&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Download the app&lt;/li&gt;
