@@ -1,0 +1,39 @@
+---js
+const eleventyNavigation = {
+    key: "Home",
+    order: 1
+};
+---
+{% set postsCount = collections.posts | length %}
+
+<div class="profile-container">
+    <div class="left-pane">
+        <p>Welcome to my digital junkyard. Trying to record and upload all my crap here.</p>
+        <p>Courses / books I want to complete but I procrastinate</p>
+        <ul>
+            <li><a href="https://app.codecrafters.io/courses/git"> https://app.codecrafters.io/courses/git</a></li>
+            <li><a href="https://www.leshenko.net/p/ugit/#">https://www.leshenko.net/p/ugit/#</a></li>
+            <li><a href="https://www.nand2tetris.org/">https://www.nand2tetris.org/</a></li>
+            <li><a href="https://browser.engineering/">https://browser.engineering/</a></li>
+            <li><a href="https://craftinginterpreters.com/">https://craftinginterpreters.com/</a></li>
+            <li><a href="https://pdos.csail.mit.edu/6.828/2018/schedule.html">https://pdos.csail.mit.edu/6.828/2018/schedule.html</a></li>
+        </ul>
+    </div>
+
+    <img src="./profile-pic-crop.svg" alt="gorillaz" style="width: 400px; height: 550px";>
+</div>
+
+<h1>All Posts</h1>
+
+{% set postslist = collections.posts %}
+{% set postslistCounter = postsCount %}
+{% include "postslist.njk" %}
+
+{# List every content page in the project #}
+{#
+<ul>
+    {%- for entry in collections.all %}
+    <li><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li>
+    {%- endfor %}
+</ul>
+#}
