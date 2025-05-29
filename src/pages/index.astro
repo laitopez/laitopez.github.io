@@ -1,0 +1,31 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<p>
+				Welcome to my digital junkyard. Trying to record and upload all my crap here.
+			</p>
+			<p>
+				Courses / books I want to complete but I procrastinate
+			</p>
+			<ul>
+				<li> <a href="https://app.codecrafters.io/courses/git" target="_blank" rel="noopener noreferrer">https://app.codecrafters.io/courses/git</a></li>
+				<li> <a href="https://www.leshenko.net/p/ugit/#" target="_blank" rel="noopener noreferrer">https://www.leshenko.net/p/ugit</a></li>
+				<li> <a href="https://www.nand2tetris.org/" target="_blank" rel="noopener noreferrer">https://www.nand2tetris.org/</a></li>
+				<li> <a href="https://browser.engineering/" target="_blank" rel="noopener noreferrer">https://browser.engineering/</a></li>
+				<li> <a href="https://craftinginterpreters.com/" target="_blank" rel="noopener noreferrer">https://craftinginterpreters.com/</a></li>
+				<li> <a href="https://pdos.csail.mit.edu/6.828/2018/schedule.html" target="_blank" rel="noopener noreferrer">https://pdos.csail.mit.edu/6.828/2018/schedule.html</a></li>
+			</ul>
+		</main>
+	</body>
+</html>
