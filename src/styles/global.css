@@ -120,7 +120,7 @@ pre > code {
 	all: unset;
 }
 blockquote {
-	border-left: 4px solid var(--accent);
+	border-left: 4px solid #f3e63e;
 	padding: 0 0 0 20px;
 	margin: 0px;
 }
