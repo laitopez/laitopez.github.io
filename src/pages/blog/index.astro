@@ -25,9 +25,8 @@ const posts = (await getCollection('blog'))
 			}
 			ul li {
 				display: flex;
+				justify-content: space-between;
 				align-items: center;
-				/* padding: 12px 0;
-				padding-bottom: 20px; */
 			}
 			ul li a {
 				display: block;
@@ -35,15 +34,13 @@ const posts = (await getCollection('blog'))
 			}
 			.title {
 				flex: 1;
-				/* margin-left: 15px; */
+				margin-left: 20px;
 			}
 			.title:hover {
 				text-decoration: underline;
 			}
 			.date {
-				margin: 0;
 				color: rgb(var(--gray));
-				padding-top: 2px;
 				color: white;
 				min-width: 100px;
 			}
@@ -64,8 +61,8 @@ const posts = (await getCollection('blog'))
 								<p class="date">
 									<FormattedDate date={post.data.pubDate} />
 								</p>
-								<a href={`/blog/${post.id}/`}>
-									<p class="title">{post.data.title}</p>
+								<a href={`/blog/${post.id}/`} class="title">
+									{post.data.title}
 								</a>
 							</li>
 						))
