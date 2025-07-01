@@ -10,6 +10,15 @@ This is landing page for collecting many of my frustrations with ai. Welcome to 
 ---
 ---
 
+Accurate [take](https://news.ycombinator.com/item?id=44428943) on "prompt strategies"
+
+> These discussions increasingly remind me of gamers discussing various strategies in WoW or similar. Purportedly working strategies found by trial and error and discussed in a language that is only intelligible to the in-group (because no one else is interested).
+
+> We are entering a new era of gamification of programming, where the power users force their imaginary strategies on innocent people by selling them to the equally clueless and gaming-addicted management.
+
+
+---
+
 I recently found this quote from Leslie Lamport that resonates with how I feel about AI and debugging AI
 
 > When people who can’t think logically design large systems, those systems become incomprehensible. And we start thinking of them as biological
