@@ -38,8 +38,8 @@ const { title, description, pubDate, updatedDate } = Astro.props;
 				margin-bottom: 0.5em;
 				color: #92b9e6;
 				color: rgb(93, 238, 85);
-				color: rgb(176, 226, 173);
-				/* color: rgb(122, 215, 117); */
+        color: rgb(176, 226, 173);
+        font-size: 0.9em;
 			}
 			.last-updated-on {
 				margin-top: 0.3em;
@@ -65,9 +65,11 @@ const { title, description, pubDate, updatedDate } = Astro.props;
 								)
 							}
 						</div>
-						<hr />
-					</div>
-					<slot />
+						<!-- <hr /> -->
+          </div>
+          <div class="blog-content">
+            <slot />
+          </div/>
 				</div>
 			</article>
 		</main>
