@@ -19,11 +19,21 @@ I won't use the links.csv I use at work but here is a simple example using some 
 links.csv
 ```text
 description, domain
-airbnb, https://www.airbnb.com/
-apple, https://www.apple.com/
-apple music, https://music.apple.com/us/browse,
-aws, https://aws.amazon.com
-aws docs, https://docs.aws.amazon.com/index.html
+airbnb, https://medium.com/airbnb-engineering
+aws, https://aws.amazon.com/blogs/aws/
+cloudflare, https://blog.cloudflare.com/
+discord, https://discord.com/blog/
+dropbox, https://dropbox.tech/
+facebook, https://engineering.fb.com/
+github, https://github.blog/engineering/
+heroku, https://www.heroku.com/blog/category/engineering/
+instagram, https://instagram-engineering.com/
+linkedin, https://www.linkedin.com/blog/engineering
+netflix, https://netflixtechblog.com/
+stackoverflow, https://stackoverflow.blog/engineering/
+stripe, https://stripe.com/blog
+twilio, https://www.twilio.com/en-us/blog
+yahoo, https://yahooeng.tumblr.com/
 ```
 
 shell function

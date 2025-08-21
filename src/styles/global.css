@@ -142,6 +142,9 @@ hr {
 	main {
 		padding: 1em;
 	}
+	pre > code {
+		font-size: 0.7em;
+	}
 }
 
 .blog-content {
