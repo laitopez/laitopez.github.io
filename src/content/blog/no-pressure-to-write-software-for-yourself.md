@@ -22,6 +22,8 @@ Around 2022 Leetcode was missing some features I was interested in. At the same 
 
 So, I sucked all my data out of Leetcode and displayed it in a web app in the format I was interested in.
 
+![leetnotes](/leetnotes.png)
+
 ### Street safety app
 
 I built an app for reporting traffic violations
