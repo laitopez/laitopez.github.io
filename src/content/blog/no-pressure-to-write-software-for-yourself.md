@@ -34,6 +34,8 @@ This has actually been seriously helpful in getting me to step away from the scr
 
 I know there is still some aspect of me trying to complete a checkbox but there are still benefits to dragging yourself to an in person event.
 
+![habits](/habits-app.png)
+
 ---
 
 It's interesting how this is going to progress as a trend since LLMs allow for more code or ephemeral projects
