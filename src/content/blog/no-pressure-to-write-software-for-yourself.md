@@ -28,6 +28,8 @@ So, I sucked all my data out of Leetcode and displayed it in a web app in the fo
 
 I built an app for reporting traffic violations
 
+![report traffic violations](/traffic-calming-app.png)
+
 ### Habit tracker app
 
 This has actually been seriously helpful in getting me to step away from the screen and go do things in irl.

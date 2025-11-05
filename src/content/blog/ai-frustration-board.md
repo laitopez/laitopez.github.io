@@ -3,7 +3,7 @@ slug: ai-frustration-board
 title: AI Frustration Board
 description: 'wtf'
 pubDate: 'Apr 15 2025'
-updatedDate: 'Oct 2 2025'
+updatedDate: 'Oct 2 2024'
 ---
 
 This is landing page for collecting many of my frustrations with ai. Welcome to my vibes board
