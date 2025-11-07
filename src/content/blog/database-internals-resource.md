@@ -1,7 +1,7 @@
 ---
-slug: database-internals-resouce
-title: Database Internals resouce
-description: "Database Internals resouce"
+slug: database-internals-resource
+title: Database Internals resource
+description: "Database Internals resource"
 pubDate: "Nov 07 2025"
 draft: false
 tags: [database]
