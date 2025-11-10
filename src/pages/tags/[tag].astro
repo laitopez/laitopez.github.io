@@ -1,0 +1,94 @@
+---
+import { type CollectionEntry, getCollection } from "astro:content";
+import BlogPost from "../../layouts/BlogPost.astro";
+import { render } from "astro:content";
+import type { ACTION_ERROR_CODES } from "astro:actions";
+import BaseHead from "../../components/BaseHead.astro";
+import Header from "../../components/Header.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
+import FormattedDate from "../../components/FormattedDate.astro";
+
+export async function getStaticPaths() {
+  const allPosts = Object.values(
+    import.meta.glob("../../content/blog/*.md", { eager: true })
+  );
+  return [
+    { params: { tag: "Automation" }, props: { posts: allPosts } },
+    { params: { tag: "Database" }, props: { posts: allPosts } },
+    { params: { tag: "Productivity" }, props: { posts: allPosts } },
+    { params: { tag: "Shell" }, props: { posts: allPosts } },
+    { params: { tag: "Tools" }, props: { posts: allPosts } },
+  ];
+}
+type Props = CollectionEntry<"blog">;
+
+const { tag } = Astro.params;
+const { posts } = Astro.props;
+
+const filteredPosts = posts.filter((post: any) =>
+  post.frontmatter.tags?.includes(tag)
+);
+---
+
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <style>
+      main {
+        width: 720px;
+      }
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      ul li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      ul li a {
+        display: block;
+        text-decoration: none;
+      }
+      .title {
+        flex: 1;
+        margin-left: 20px;
+      }
+      .title:hover {
+        text-decoration: underline;
+      }
+      .date {
+        color: rgb(var(--gray));
+        color: white;
+        min-width: 100px;
+      }
+      ul li a:hover h4,
+      ul li a:hover .date {
+        color: rgb(var(--accent));
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main>
+      <div>
+        <h4>#{tag}</h4>
+        <ul>
+          {
+            filteredPosts.map((post: any) => (
+              <li>
+                <p class="date">
+                  <FormattedDate date={new Date(post.frontmatter.pubDate)} />
+                </p>
+                <a href={`/blog/${post.frontmatter.slug}/`} class="title">
+                  {post.frontmatter.title}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>
