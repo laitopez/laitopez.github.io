@@ -1,39 +1,39 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 ---
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<h1>🏚️ Projects</h1>
-			<p>
-                Draft: A tool for gathering a range of slack messages or Discord messages and summarizing
-                them with an LLM
-			</p>
-			<p>
-                Draft: A meme tool for updating your github pfp daily
-			</p>
-			<p>
-                Draft: A tree quiz game ui built with clojurescript
-			</p>
-			<p>
-                Draft: A ui "book" similar to <a href="https://www.leshenko.net/p/ugit">ugit</a> backed by a github repo
-			</p>
-			<p>
-                Draft: Game on memory management. A user maps a tic tac toe board in to memory on one computer
-                to memory on another computer to demonstrate serialization, IPC.
-			</p>
-			<p>
-				Draft: hackernews, reddit, https://lobste.rs/ comment foldering keyboard shortcut chrome extension. An extension that should fold
-				comments some how. Try not to overwrite vimium shortcuts
-			</p>
-		</main>
-	</body>
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <h1>🏚️ Projects</h1>
+      <p>
+        Draft: A tool for gathering a range of slack messages or Discord
+        messages and summarizing them with an LLM
+      </p>
+      <p>Draft: A meme tool for updating your github pfp daily</p>
+      <p>Draft: A tree quiz game ui built with clojurescript</p>
+      <p>
+        Draft: A ui "book" similar to <a href="https://www.leshenko.net/p/ugit"
+          >ugit</a
+        > backed by a github repo
+      </p>
+      <p>
+        Draft: Game on memory management. A user maps a tic tac toe board in to
+        memory on one computer to memory on another computer to demonstrate
+        serialization, IPC.
+      </p>
+      <p>
+        Draft: hackernews, reddit, https://lobste.rs/ comment foldering keyboard
+        shortcut chrome extension. An extension that should fold comments some
+        how. Try not to overwrite vimium shortcuts
+      </p>
+    </main>
+  </body>
 </html>

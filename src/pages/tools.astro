@@ -1,40 +1,31 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 ---
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<h1>Tools</h1>
-			<p>
-                Window manager: Rectangle - needs change (I want to use i3)
-			</p>
-			<p>
-				http client: Postman, I do not like it at all - needs change (?)
-			</p>
-			<p>
-				anki: mochi, its better than anki but I still think it could be improved
-			</p>
-			<p>
-				Screenshots: mac preview - needs change (screenshot x ?) I want vertical screenshots and darking unfocused portion of the screen
-			</p>
-			<p>
-				Notes: Obsidian - happy with it
-			</p>
-			<p>
-                Terminal: Kitty, happy with it - no change
-			</p>
-			<h1>Automations</h1>
-			<p>
-				Improved Google chrome histrory search -> Probably FZF
-			</p>
-		</main>
-	</body>
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <h1>Tools</h1>
+      <p>Window manager: Rectangle - needs change (I want to use i3)</p>
+      <p>http client: Postman, I do not like it at all - needs change (?)</p>
+      <p>
+        anki: mochi, its better than anki but I still think it could be improved
+      </p>
+      <p>
+        Screenshots: mac preview - needs change (screenshot x ?) I want vertical
+        screenshots and darking unfocused portion of the screen
+      </p>
+      <p>Notes: Obsidian - happy with it</p>
+      <p>Terminal: Kitty, happy with it - no change</p>
+      <h1>Automations</h1>
+      <p>Improved Google chrome histrory search -> Probably FZF</p>
+    </main>
+  </body>
 </html>
