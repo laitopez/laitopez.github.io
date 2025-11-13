@@ -1,77 +1,64 @@
 ---
-import type { CollectionEntry } from 'astro:content';
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import FormattedDate from '../components/FormattedDate.astro';
+import type { CollectionEntry } from "astro:content";
+import FormattedDate from "../components/FormattedDate.astro";
+import BaseLayout from "./BaseLayout.astro";
 
-type Props = CollectionEntry<'blog'>['data'];
+type Props = CollectionEntry<"blog">["data"];
 
-const { title, description, pubDate, updatedDate } = Astro.props;
+const { title, description, pubDate, updatedDate, tags } = Astro.props;
 ---
 
-<html lang="en">
-	<head>
-		<BaseHead title={title} description={description} />
-		<style>
-			main {
-				width: calc(100% - 2em);
-				max-width: 100%;
-				margin: 0;
-			}
-			.prose {
-				width: 720px;
-				max-width: calc(100% - 2em);
-				margin: auto;
-				padding: 1em;
-				color: rgb(var(--gray-dark));
-			}
-			.title {
-				margin-bottom: 1em;
-				padding: 1em 0;
-				text-align: center;
-				line-height: 1;
-			}
-			.title h1 {
-				margin: 0 0 0.5em 0;
-			}
-			.date {
-				margin-bottom: 0.5em;
-				color: #92b9e6;
-				color: rgb(93, 238, 85);
-        color: rgb(176, 226, 173);
-        font-size: 0.9em;
-			}
-			.last-updated-on {
-				margin-top: 0.3em;
-			}
-		</style>
-	</head>
+<BaseLayout pageTitle={title}>
+  <style>
+    .title h1 {
+      margin: 0 0 0.5em 0;
+    }
+    .date {
+      margin-bottom: 0.5em;
+      color: #92b9e6;
+      color: rgb(93, 238, 85);
+      color: rgb(176, 226, 173);
+      font-size: 0.9em;
+    }
+    .last-updated-on {
+      margin-top: 0.3em;
+    }
 
-	<body>
-		<Header />
-		<main>
-			<article>
-				<div class="blog-container">
-					<div>
-						<h3>{title}</h3>
-						<div class="date">
-							Created:
-							<FormattedDate date={pubDate} />
-							{
-								updatedDate && (
-									<div class="last-updated-on">
-										Updated: <FormattedDate date={updatedDate} />
-									</div>
-								)
-							}
-						</div>
-						<!-- <hr /> -->
-          </div>
-          <div class="blog-content">
-            <slot />
-          </div/>
-				</div>
-			</article>
-		</main>
-	</body>
-</html>
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .blog-content {
+      margin-top: 2.5em;
+    }
+  </style>
+
+  <article>
+    <div class="blog-container">
+      <div>
+        <h3>{title}</h3>
+        <div class="date">
+          Created:
+          <FormattedDate date={pubDate} />
+          {
+            updatedDate && (
+              <div class="last-updated-on">
+                Updated: <FormattedDate date={updatedDate} />
+              </div>
+            )
+          }
+        </div>
+        <div class="tags">
+          {
+            tags &&
+              tags.map((tag: string) => <a href={`/tags/${tag}`}>{tag}</a>)
+          }
+        </div>
+      </div>
+      <div class="blog-content">
+        <slot />
+      </div>
+    </div>
+  </article>
+</BaseLayout>
