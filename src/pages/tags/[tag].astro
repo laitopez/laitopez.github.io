@@ -1,8 +1,4 @@
 ---
-import { type CollectionEntry, getCollection } from "astro:content";
-import BlogPost from "../../layouts/BlogPost.astro";
-import { render } from "astro:content";
-import type { ACTION_ERROR_CODES } from "astro:actions";
 import BaseHead from "../../components/BaseHead.astro";
 import Header from "../../components/Header.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
@@ -12,22 +8,27 @@ export async function getStaticPaths() {
   const allPosts = Object.values(
     import.meta.glob("../../content/blog/*.md", { eager: true })
   );
-  return [
-    { params: { tag: "Automation" }, props: { posts: allPosts } },
-    { params: { tag: "Database" }, props: { posts: allPosts } },
-    { params: { tag: "Productivity" }, props: { posts: allPosts } },
-    { params: { tag: "Shell" }, props: { posts: allPosts } },
-    { params: { tag: "Tools" }, props: { posts: allPosts } },
+  const tags = [
+    ...new Set(
+      allPosts
+        .map((post: any) => post.frontmatter.tags)
+        .sort()
+        .flat()
+    ),
   ];
+  return tags.map((tag) => {
+    return { params: { tag: tag }, props: { posts: allPosts } };
+  });
 }
-type Props = CollectionEntry<"blog">;
 
 const { tag } = Astro.params;
 const { posts } = Astro.props;
 
-const filteredPosts = posts.filter((post: any) =>
-  post.frontmatter.tags?.includes(tag)
-);
+const filteredPosts = posts
+  .filter((post: any) => post.frontmatter.tags?.includes(tag))
+  .sort(
+    (a, b) => new Date(b.frontmatter.pubDate) - new Date(a.frontmatter.pubDate)
+  );
 ---
 
 <html lang="en">
@@ -73,7 +74,7 @@ const filteredPosts = posts.filter((post: any) =>
     <Header />
     <main>
       <div>
-        <h4>#{tag}</h4>
+        <h4>{tag}</h4>
         <ul>
           {
             filteredPosts.map((post: any) => (

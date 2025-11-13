@@ -2,7 +2,6 @@
 import BaseHead from "../../components/BaseHead.astro";
 import Header from "../../components/Header.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
-import { undefined } from "astro:schema";
 
 const allPosts = Object.values(
   import.meta.glob("../../content/blog/*.md", { eager: true })
@@ -16,7 +15,6 @@ const tags = [
       .sort()
   ),
 ];
-console.log({ tags });
 ---
 
 <!doctype html>
@@ -36,6 +34,7 @@ console.log({ tags });
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding-bottom: 15px;
       }
       ul li a {
         display: block;
@@ -62,12 +61,12 @@ console.log({ tags });
   <body>
     <Header />
     <main>
+      <h3>Tags</h3>
       <section>
         <ul>
           {
-            tags.map((tag) => (
+            tags.map((tag: string) => (
               <li>
-                <p class="date" />
                 <a href={`/tags/${tag}/`} class="title">
                   {tag}
                 </a>
