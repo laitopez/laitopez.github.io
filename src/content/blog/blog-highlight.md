@@ -1,8 +1,9 @@
 ---
 slug: blog-highlight
 title: Blog Highlight
-description: 'Cool blog I found'
-pubDate: 'Aug 21 2025'
+description: "Cool blog I found"
+pubDate: "Aug 21 2025"
+tags: ["blogging"]
 ---
 
 I came across a blog a year or two ago and recently searched for it again in my chrome history but failed to find it.
@@ -22,4 +23,3 @@ My next todo read for this blog is [Writing experience: My decade with Org](http
 - trello: read later articles
 - Mochi (anki): for all of the above
 - Obsidian: notes and knowledge base
-
