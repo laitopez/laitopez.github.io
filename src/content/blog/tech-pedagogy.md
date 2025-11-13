@@ -4,6 +4,7 @@ title: Tech Pedagogy
 description: "Tech Pedagogy"
 pubDate: "Nov 04 2025"
 draft: true
+tags: []
 ---
 
 ### Solve a simpler version of the problem

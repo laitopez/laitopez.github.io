@@ -1,8 +1,9 @@
 ---
 slug: cool-blog-bookmarks
 title: Cool Blog Bookmarks
-description: 'Cool Blog Bookmarks'
-pubDate: 'Aug 23 2025'
+description: "Cool Blog Bookmarks"
+pubDate: "Aug 23 2025"
+tags: [blogging]
 ---
 
 - https://github.com/jbranchaud/til?tab=readme-ov-file#til

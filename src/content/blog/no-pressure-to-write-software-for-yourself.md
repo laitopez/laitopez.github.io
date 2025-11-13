@@ -3,6 +3,7 @@ slug: no-pressure-to-write-software-for-yourself
 title: Write software for yourself without any pressure
 description: "wtf"
 pubDate: "Oct 2 2025"
+tags: []
 ---
 
 This week similar posts popped up on lobste.rs and hackernews

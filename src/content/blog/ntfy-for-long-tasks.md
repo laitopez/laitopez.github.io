@@ -1,9 +1,9 @@
 ---
 slug: using-ntfy-sh-for-executing-long-running-commands
 title: Using ntfy.sh for executing long running commands and mobile notifications
-description: 'wtf'
-pubDate: 'Oct 15 2024'
-tags: [Tools, Productivity]
+description: "wtf"
+pubDate: "Oct 15 2024"
+tags: [productivity, shell]
 ---
 
 [ntfy.sh](https://github.com/binwiederhier/ntfy) is a cool tool for sending push notifications to your mobile device. Here is a quick guide on how to send notificaitons for long running scripts you execute in your shell

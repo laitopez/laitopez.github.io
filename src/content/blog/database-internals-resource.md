@@ -4,7 +4,7 @@ title: Database Internals resource
 description: "Database Internals resource"
 pubDate: "Nov 07 2025"
 draft: false
-tags: [database]
+tags: [blogging, database]
 ---
 
 [This](https://news.ycombinator.com/item?id=45808863) was posted on HN today and was a fun read. It's a really cool blog from someone who has aggregated a bunch of resources for learning database internals and development.
