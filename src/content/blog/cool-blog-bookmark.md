@@ -3,7 +3,7 @@ slug: cool-blog-bookmarks
 title: Cool Blog Bookmarks
 description: "Cool Blog Bookmarks"
 pubDate: "Aug 23 2025"
-updatedDate: "Nov 14 2025"
+updatedDate: "Dec 05 2025"
 tags: [blogging]
 ---
 
@@ -14,3 +14,4 @@ tags: [blogging]
 - https://xenodium.com/
 - https://blog.infected.systems/
 - https://wingolog.org/archives/2016/10/12/an-incomplete-history-of-language-facilities-for-concurrency
+- https://michael.stapelberg.ch/
