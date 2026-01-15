@@ -1,12 +1,12 @@
 ---
 slug: computer-architecture-bookmarks
-title: Computer architecture bookmarks
+title: Computer Architecture Bookmarks
 description: "Computer architecture bookmarks"
 pubDate: "Jan 1 2026"
 tags: [programming languages]
 ---
 
-I've been consuming a lot of content on operating systems, Computer Architecture Dump, and other low level concepts.
+I've been consuming a lot of content on operating systems, Computer Architecture, and other low level concepts.
 
 ### Videos
 
