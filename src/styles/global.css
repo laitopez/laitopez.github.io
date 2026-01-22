@@ -133,6 +133,7 @@ hr {
 .blog-container {
 	max-width: 750px;
 	margin: 0 auto;
+	padding: 1em;
     /* padding: 0 1em; */
 }
 @media (max-width: 720px) {
