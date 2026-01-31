@@ -17,7 +17,7 @@ Let's simulate it. Here is what a notification might look like for a passing scr
 ```sh
 sleep 30 && \
 curl -H prio:low -d "Laptop backup succeeded" ntfy.sh/YOUR_TOPIC || \
-curl -H tags:warning -H prio:high -d "Laptop backup failed" ntfy.sh/jc13test
+curl -H tags:warning -H prio:high -d "Laptop backup failed" ntfy.sh/YOUR_TOPIC
 ```
 
 Here is what a notification might look like for a failing script
@@ -25,7 +25,7 @@ Here is what a notification might look like for a failing script
 ```sh
 false && \
 curl -H prio:low -d "Laptop backup succeeded" ntfy.sh/YOUR_TOPIC || \
-curl -H tags:warning -H prio:high -d "Laptop backup failed" ntfy.sh/jc13test
+curl -H tags:warning -H prio:high -d "Laptop backup failed" ntfy.sh/YOUR_TOPIC
 ```
 
 Great, now just replace `sleep 30` or `false` with your script. e.g. `test.py`

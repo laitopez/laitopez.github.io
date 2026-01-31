@@ -6,7 +6,7 @@ pubDate: "Jan 1 2026"
 tags: [programming languages]
 ---
 
-I've been consuming a lot of content on operating systems, Computer Architecture, and other low level concepts.
+I've been consuming a lot of content on operating systems, computer architecture, and other low level concepts lately. Here is a dump of a few.
 
 ### Videos
 

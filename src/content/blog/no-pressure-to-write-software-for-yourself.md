@@ -8,7 +8,7 @@ tags: [projects]
 
 This week similar posts popped up on lobste.rs and hackernews
 
-The idea was that its okay to write bespoke custom software for yourself. Have fun doing it!
+The idea was that its okay to write bespoke software for yourself and don't spend time perfecting. Have fun doing it!
 
 - https://lobste.rs/s/p3wmty/step_right_up_lobsters_blog_carnival
 - https://zerotrickpony.com/articles/software-for-one/

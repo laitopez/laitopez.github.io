@@ -15,7 +15,7 @@ Why don't we load all those domains in to a csv file and then create a shell fun
 
 ### Example
 
-I won't use the links.csv I use at work but here is a simple example using some company domains. Place this file in your root directory
+I won't use the links.csv I use at work but here is a simple example using some company domains. Place this file in your root directory.
 
 links.csv
 
