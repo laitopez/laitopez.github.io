@@ -3,7 +3,7 @@ slug: cool-blog-bookmarks
 title: Cool Blog Bookmarks
 description: "Cool Blog Bookmarks"
 pubDate: "Aug 23 2025"
-updatedDate: "Jan 19 2026"
+updatedDate: "Jan 31 2026"
 tags: [blogging]
 ---
 
@@ -16,3 +16,4 @@ tags: [blogging]
 - https://wingolog.org/archives/2016/10/12/an-incomplete-history-of-language-facilities-for-concurrency
 - https://michael.stapelberg.ch/
 - https://blog.avas.space/blog-gif/
+- https://nedbatchelder.com/blog/202510/side_project_advice
