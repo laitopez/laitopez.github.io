@@ -17,3 +17,4 @@ tags: [blogging]
 - https://michael.stapelberg.ch/
 - https://blog.avas.space/blog-gif/
 - https://nedbatchelder.com/blog/202510/side_project_advice
+- https://tech.marksblogg.com
