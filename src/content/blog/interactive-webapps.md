@@ -10,3 +10,4 @@ tags: []
 - [backbone.js line by line explainer](https://backbonejs.org/docs/backbone.html)
   - This uses a tool called docco
 - [Build your own React](https://pomb.us/build-your-own-react/)
+- [Understanding floating point](https://proto.csprimer.com/fp/)
