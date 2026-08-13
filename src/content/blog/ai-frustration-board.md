@@ -13,6 +13,10 @@ This is landing page for collecting many of my frustrations with ai. Welcome to 
 
 ---
 
+- [Appearing Productive in The Workplace](https://news.ycombinator.com/item?id=48038001)
+
+---
+
 I've seen [this](https://news.ycombinator.com/item?id=45331832) take in similar forms such as the slot machine-ification or doom scrolling of coding
 
 > In my mind, like TikTok or online dating, AI is just another product motion toward comfort maximizing over all things, as cognitive engagement is difficult and not always pleasant. In a nutshell, it is another instant gratification product from tech.

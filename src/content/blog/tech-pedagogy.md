@@ -7,6 +7,34 @@ draft: true
 tags: []
 ---
 
+### Just do the thing
+
+- https://www.softwaredesign.ing/blog/doing-the-thing-is-doing-the-thing
+
+### Write it by hand
+
+Make your self recall it by memory. Copy the code from a tutorial but then delete it and recall it from memory.
+
+- https://lobste.rs/s/zotppg/type_out_code
+
+### Code with pen and paper
+
+- https://news.ycombinator.com/item?id=44113210
+
+### Transcribe your favorite author
+
+- https://news.ycombinator.com/item?id=49023230
+- https://www.scotthyoung.com/blog/2017/10/02/how-ben-franklin-learned-to-write/
+
+This ones interesting, I've never heard of this strategy before you copy, transcribe your favorite writers from memory (active recalll)t to basically become a better writer and write like them.
+
+Some popular resources I continue to come back to or admire are:
+
+- [Julia Evans blog](https://jvns.ca/)
+- [Core Dumped YouTube channel](https://www.youtube.com/@CoreDumpped)
+- [Putting the "You" in CPU](https://cpu.land/)
+- [Hello Interview system design YouTube channel](https://www.youtube.com/@hello_interview)
+
 ### Solve a simpler version of the problem
 
 As much as I don't want to do duplicative work I have often encountered a services(s) that are too difficult to set up or get in a particular state. It can help to recreate a toy environment or project that is much simpler but that removes the friction and allows you to make progress to the final solution.
