@@ -2,62 +2,92 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
+<style>
+  main {
+    width: 720px;
+  }
+  .profile-container {
+    display: flex;
+    gap: 20px;
+    max-width: 900px;
+    width: 100%;
+  }
+
+  .left-pane {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+</style>
+
 <BaseLayout
   pageTitle="Lai Topez Garage"
   description="Welcome to my digital Junkyard"
 >
   <body>
     <main>
-      <p>
-        Welcome to my digital junkyard. Trying to record and upload all my crap
-        here.
-      </p>
-      <p>Courses / books I want to complete but I procrastinate</p>
-      <ul>
-        <li>
-          <a
-            href="https://app.codecrafters.io/courses/git"
-            target="_blank"
-            rel="noopener noreferrer">https://app.codecrafters.io/courses/git</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://www.leshenko.net/p/ugit/#"
-            target="_blank"
-            rel="noopener noreferrer">https://www.leshenko.net/p/ugit</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://www.nand2tetris.org/"
-            target="_blank"
-            rel="noopener noreferrer">https://www.nand2tetris.org/</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://browser.engineering/"
-            target="_blank"
-            rel="noopener noreferrer">https://browser.engineering/</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://craftinginterpreters.com/"
-            target="_blank"
-            rel="noopener noreferrer">https://craftinginterpreters.com/</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://pdos.csail.mit.edu/6.828/2018/schedule.html"
-            target="_blank"
-            rel="noopener noreferrer"
-            >https://pdos.csail.mit.edu/6.828/2018/schedule.html</a
-          >
-        </li>
-      </ul>
+      <div class="profile-container">
+        <div class="left-pane">
+          <p>
+            Welcome to my digital junkyard. Trying to record and upload all my
+            crap here.
+          </p>
+          <p>Courses / books I want to complete but I procrastinate</p>
+          <ul>
+            <li>
+              <a
+                href="https://app.codecrafters.io/courses/git/overview"
+                target="_blank"
+                rel="noopener noreferrer"
+                >https://app.codecrafters.io/courses/git/overview
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.leshenko.net/p/ugit/#"
+                target="_blank"
+                rel="noopener noreferrer">https://www.leshenko.net/p/ugit</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.nand2tetris.org/"
+                target="_blank"
+                rel="noopener noreferrer">https://www.nand2tetris.org/</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://browser.engineering/"
+                target="_blank"
+                rel="noopener noreferrer">https://browser.engineering/</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://craftinginterpreters.com/"
+                target="_blank"
+                rel="noopener noreferrer">https://craftinginterpreters.com/</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://pdos.csail.mit.edu/6.828/2018/schedule.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                >https://pdos.csail.mit.edu/6.828/2018/schedule.html</a
+              >
+            </li>
+          </ul>
+        </div>
+        <img
+          src="./profile-pic-crop.svg"
+          alt="gorillaz"
+          style="width: 400px; height: 550px"
+          ;
+        />
+      </div>
     </main>
   </body>
 </BaseLayout>
