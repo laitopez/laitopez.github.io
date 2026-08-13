@@ -17,6 +17,7 @@ I've been consuming a lot of content on operating systems, computer architecture
 - [How CPUs work animation](https://www.youtube.com/watch?v=16zrEPOsIcI)
 - [CaptiveAire | Digital Electronics - The First Video YOU Should Watch](https://www.youtube.com/watch?v=pDELW2pIvWw)
 - [Sebastian Lague | Simulating 256 Bytes of RAM](https://www.youtube.com/watch?v=HGkuRp5HfH8)
+- [Putting the You in CPU](https://cpu.land/)
 
 ### Books
 
