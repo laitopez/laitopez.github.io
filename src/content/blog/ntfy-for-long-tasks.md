@@ -29,3 +29,13 @@ curl -H tags:warning -H prio:high -d "Laptop backup failed" ntfy.sh/YOUR_TOPIC
 ```
 
 Great, now just replace `sleep 30` or `false` with your script. e.g. `test.py`
+
+### Everyday ntfy commands
+
+```sh
+# Today at specific time
+curl -H "At: 10:00pm" -d "Schedule doctor appointment" http://HOST/reminders
+
+# Tomorrow at specific time
+curl -H "At: tomorrow, 9am" -d "Check order" http://HOST/reminders
+```

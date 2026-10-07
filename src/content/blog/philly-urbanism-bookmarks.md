@@ -14,3 +14,11 @@ tags: [philly]
 - [Feet First Philly](https://feetfirstphilly.org/)
 - [Road closures posted by the city](https://www.phila.gov/departments/office-of-special-events/events/upcoming-special-event-road-closures)
 - [Indego bike share trip data](https://www.rideindego.com/about/data/)
+- [Better PATCO timetable](https://nextpatco.fyi/)
+- [Bikes on Amtrak](https://bikesonamtrak.com/)
+
+After reading [this](https://discord.com/channels/1092545156244316233/1462177953164165285/1484278487501115537) thread in PBA discord I found even more firms / technologies capturing data in the area.
+
+- [Replica](https://www.replicahq.com/applications)
+- [Toole](https://tooledesign.com)
+- [Streetlight](https://www.streetlightdata.com/)

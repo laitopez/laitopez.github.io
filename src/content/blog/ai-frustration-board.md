@@ -3,13 +3,29 @@ slug: ai-frustration-board
 title: AI Frustration Board
 description: "wtf"
 pubDate: "Apr 15 2025"
-updatedDate: "Oct 2 2025"
+updatedDate: "Oct 03 2026"
 tags: ["ai"]
 ---
 
 This is landing page for collecting many of my frustrations with ai. Welcome to my vibes board
 
 ---
+
+- [Commodified Intelligence](https://herecomesthemoon.net/2026/09/commodified-intelligence/)
+- [lobste thread](https://lobste.rs/s/nidcls/commodified_intelligence)
+
+An intesting post on a handful of thoughts on ceding control to ai, how its invitable in some or many scenarios and intentionally choosing to do things the hard way.
+
+Do you care about the outcome or the "doing if yourself" part?
+
+---
+
+- [The Four Horsemen of Agentic Coding](https://distantprovince.substack.com/p/the-four-horsemen-of-agentic-coding)
+- [lobste thread](https://lobste.rs/s/wevegu/four_horsemen_agentic_coding)
+
+---
+
+[This](https://news.ycombinator.com/item?id=49627218) comment about not having a strong use case for AI captures my feelings pretty well. I just don't have much a use case for all the endless things it can do. Either the output for me is too trivial or too complicated. In both cases I just opt out of using technology and just strive for a simpler option.
 
 ---
 

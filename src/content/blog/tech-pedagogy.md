@@ -3,6 +3,7 @@ slug: tech-pedagogy
 title: Tech Pedagogy
 description: "Tech Pedagogy"
 pubDate: "Nov 04 2025"
+updatedDate: "Oct 03 2026"
 draft: true
 tags: []
 ---
@@ -16,6 +17,11 @@ tags: []
 Make your self recall it by memory. Copy the code from a tutorial but then delete it and recall it from memory.
 
 - https://lobste.rs/s/zotppg/type_out_code
+
+### Curate notes / knowedge base by hand
+
+- https://jadarma.github.io/blog/posts/2026/09/clankers-made-me-build-a-second-brain/
+- https://lobste.rs/s/xg8zbk/clankers_made_me_build_second_brain
 
 ### Code with pen and paper
 
