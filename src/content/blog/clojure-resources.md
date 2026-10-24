@@ -3,6 +3,7 @@ slug: src/content/blog/clojure-resources.md
 title: Cool clojure resources on the web
 description: "Cool clojure resources to check out"
 pubDate: "April 20 2026"
+updatedDate: "Oct 24 2026"
 tags: [clojure]
 ---
 
@@ -27,3 +28,8 @@ Blogs:
 - https://lambdaisland.com/blog
 - https://jmglov.net/blog/tags/clojure.html
 - https://jaketrent.com/clojure/
+
+Other:
+
+- https://seqfind.com/
+  - Cool code navigation

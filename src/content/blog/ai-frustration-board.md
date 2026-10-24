@@ -3,7 +3,7 @@ slug: ai-frustration-board
 title: AI Frustration Board
 description: "wtf"
 pubDate: "Apr 15 2025"
-updatedDate: "Oct 03 2026"
+updatedDate: "Oct 24 2026"
 tags: ["ai"]
 ---
 
@@ -11,10 +11,16 @@ This is landing page for collecting many of my frustrations with ai. Welcome to 
 
 ---
 
+I liked [this](https://youtu.be/9GLdGc9OX-A?si=EufNSDe5Eu0Y9bze&t=3481) interview with Ezra Klein about GDP, consumers using AI, and the deluge of AI spam. I specifically liked Paul Kedrosky's comment comparing LLMs to a DoS attack
+
+> A Denial of Service attach on modernity where all of the sudden we are having stuff launching at us from every angle, almost like Russian bots attacking a website, except its coming from all angles. And I think that is what people are responding, it's this kind of out of control feeling as all the frictions drop away and suddenly you can no longer get access to things and nothing quite works properly anymore.
+
+---
+
 - [Commodified Intelligence](https://herecomesthemoon.net/2026/09/commodified-intelligence/)
 - [lobste thread](https://lobste.rs/s/nidcls/commodified_intelligence)
 
-An intesting post on a handful of thoughts on ceding control to ai, how its invitable in some or many scenarios and intentionally choosing to do things the hard way.
+An interesting post on a handful of thoughts on ceding control to ai, how its inevitable in some or many scenarios and intentionally choosing to do things the hard way.
 
 Do you care about the outcome or the "doing if yourself" part?
 
